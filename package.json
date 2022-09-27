@@ -1,0 +1,25 @@
+{
+  "name": "csgo-demo-voice-extractor",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "LD_LIBRARY_PATH=linux64 wds ./src/main.ts",
+    "build": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/ffi-napi": "^4.0.6",
+    "@types/node": "^17.0.26",
+    "@types/ref-napi": "^3.0.5",
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
+    "eslint": "8.24.0",
+    "typescript": "4.8.3",
+    "wds": "^0.13.2"
+  },
+  "dependencies": {
+    "demofile": "^2.9.2",
+    "ffi-napi": "^4.0.3",
+    "ref-napi": "^3.0.3",
+    "wavefile": "^11.0.0"
+  }
+}
